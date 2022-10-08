@@ -1,0 +1,62 @@
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  /* dark shades of primary color*/
+  --primary-white: hsl(0, 0%, 100%);
+  --primary-ligth-gray: hsl(212, 45%, 89%);
+  --primary-grayish-blue: hsl(220, 15%, 55%);
+  --primary-dark-blue: hsl(218, 44%, 22%); 
+
+  --ff-primary: 'Outfit', sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+	align-items: center;
+	background-color: var(--primary-grayish-blue);
+	display: flex;
+	flex-direction: column;
+	font-family: var(--ff-primary);
+	font-size: 1.5rem;
+	height: 100vh;
+	justify-content: center;
+}
+
+.content {
+	background-color: var(--primary-white);
+	border-radius: 1rem;
+	box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 1.6rem;
+	max-width: 27.2rem;
+	padding: 1.6rem;
+}
+
+img {
+    border-radius: 1rem;
+	max-height: 28.8rem;
+	max-width: 28.8rem;
+	width: 100%;
+}
+h1 {
+	color: var(--primary-dark-blue);
+	font-family: var(--ff-primary);
+	font-size: 2.2rem;
+	font-weight: 700;
+	text-align: center;
+	width: 100%;
+}
+
+p {
+	color: var(--primary-grayish-blue);
+	font-family: 'Outfit', sans-serif;
+	font-size: 1.5rem;
+	font-weight: 400;
+	text-align: center;
+}
